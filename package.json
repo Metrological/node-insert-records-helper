@@ -1,0 +1,23 @@
+{
+  "author": "Metrological",
+  "private": true,
+  "name": "insert-records-helper",
+  "description": "Allows easy import, update and delete of many records into a mysql database.",
+  "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Metrological/node-insert-records-helper"
+  },
+  "main": "./lib/insert-records-helper",
+  "keywords": [
+    "mysql",
+    "migration",
+    "insert",
+    "update",
+    "bulk"
+  ],
+  "dependencies": {
+    "lodash": "~2.4.1",
+    "async": "~0.9.0"
+  }
+}
